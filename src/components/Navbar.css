@@ -1,0 +1,10 @@
+
+
+@media screen and (max-width: 768px) {
+    .nav-btn-wp{
+        display: none !important;
+    }
+    .navbar-container{
+        flex-direction: column !important;
+    }
+}

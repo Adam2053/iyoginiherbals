@@ -4,3 +4,14 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@media  screen and (max-width: 768px) {
+    .hero-container{
+        padding-inline: 0 !important;
+        flex-direction: column !important;;
+    }
+    .content{
+      width: 100% !important;
+      margin-bottom: 0 !important;
+    }
+}

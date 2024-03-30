@@ -1,10 +1,11 @@
 import React from 'react'
 import logo from '/assets/logo.png'
+import './Navbar.css'
 const Navbar = () => {
 
     const nav_items = ['Hair Oil', 'Shampoo', 'Contact Us']
   return (
-    <nav className='navbar-container flex items-center justify-around px-5'>
+    <nav className='navbar-container flex  items-center justify-around px-5'>
         <img src={logo} alt="" />
         <ul className='flex gap-4'>
             {nav_items.map(item => (
@@ -13,7 +14,7 @@ const Navbar = () => {
                 </li>
             ))}
         </ul>
-        <button style={{transition:"all 0.2s ease-in"}} className="p-2 rounded-lg font-bold hover:bg-lime-400 text-lg bg-[#67A412] text-white">
+        <button style={{transition:"all 0.2s ease-in"}}  className="nav-btn-wp p-2 rounded-lg font-bold hover:bg-lime-400 text-lg bg-[#67A412] text-white">
             WhatsApp
         </button>
     </nav>

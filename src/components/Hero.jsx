@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       <div className="hero-container px-28 w-full  flex justify-between">
-        <div style={{lineHeight:"2rem"}} className="w-[50%] flex flex-col gap-8 mb-[10rem] justify-center px-5">
+        <div style={{lineHeight:"2rem"}} className="content w-[50%] flex flex-col gap-8 mb-[10rem] justify-center px-5">
           <h1 className="font-katibeh text-8xl text-[#3E3E3E]">
             IYOGINI <span className="text-[#67A412]">HERBALS</span>
           </h1>
